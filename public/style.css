@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-login {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-login:hover {
+  background-color: #45a049;
+}
+
+.text-center small {
+  color: #777;
+}
+
+.login-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* index.php */
+.navbar {
+  background-color: #133E87;
+}
+
+.navbar .container-fluid #navbarNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .container-fluid #navbarNav a img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.navbar .container-fluid #navbarNav ul li {
+  margin-left: 10px;
+}
+
+.navbar .container-fluid #navbarNav ul li:hover {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.kelas-active {
+  background-color: white;
+  border-radius: 10px;
+  color: #608BC1 !important;
+}
+
+.navbar .container-fluid #navbarNav ul li a.button:hover {
+  color: #608BC1 !important;
+}
+
+
+.navbar .container-fluid #navbarNav ul li.logout {
+  background-color: #608BC1;
+  display: flex;
+  justify-content: end;
+  margin-left: 10px;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.navbar .container-fluid #navbarNav ul li.logout:hover {
+  scale: 1.1;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.content-satu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+
+.content-satu .tittle h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 55px;
+  margin-left: 10px;
+}
+
+.content-satu .deskripsi-title p {
+  text-align: justify;
+  margin: 20px 50px 0 -10px;
+}
+
+.content-dua {
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.content-dua img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gambar {
+  background-image: url('./img/download.jpeg');
+  width: 100%;
+  height: 30rem;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.gambar p {
+  background-color: white;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 8px rgba(4, 50, 255, 0.8);
+}
+
+/* galeri */
+.tittle-motivasi h2 {
+  color: #608BC1 !important;
+}
+
+/* kontak */
+.kontak {
+  height: 100vh;
+}
+
+.kontak .judul {
+  background-color: #608BC1;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -35px;
+  padding-top: 5rem;
+}
+
+.kontak .isi {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kontak .isi .mapp .map {
+  width: 500px;
+  height: 300px;
+}
+
+/* isi inovasi */
+.isiInovasi {
+  cursor: pointer;
+  padding: 8rem;
+}
+
+.modal-body img {
+  max-height: 80vh;
+  width: auto;
+  margin: auto;
+}
+
+
+
+/* footer */
+footer {
+  height: 100%;
+  padding-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #608BC1;
+}
+
+footer .sosial a {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    padding: 20px;
+    max-width: 100%;
+  }
+}
